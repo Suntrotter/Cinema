@@ -1,0 +1,10 @@
+{% load static %}
+{% for movie in movies %}
+   <ul>
+       <li>
+           <a href={{movie.slug}}>{{ movie.title }}</a>
+
+       </li>
+   </ul>
+
+{% endfor %}
